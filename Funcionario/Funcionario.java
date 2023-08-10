@@ -57,10 +57,10 @@ public class Funcionario {
 		this.salario = salario;
 	}
 
-	@Override
-	public String toString() {
-		return "Funcionario [nome=" + nome + ", id=" + id + ", setor=" + setor + ", funcao=" + funcao + ", salario= R$"
-				+ salario + "]";
+	
+	public void visualizar() {
+		System.out.println("Funcionario: nome=" + nome + ", id=" + id + ", setor=" + setor + ", funcao=" + funcao + ", salario= R$"
+				+ salario );
 	}
 	
 	
